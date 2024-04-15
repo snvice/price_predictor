@@ -57,8 +57,9 @@ def raw_values():
 
     return brands,rams,internal_storages,batteries,main_cameras,front_cameras,displays,has_5g_options
 
-
+import streamlit as st
 import pickle
+@st.cache_resource
 def load_model():
     with open('model.pkl', 'rb') as f:
         loaded_model = pickle.load(f)
