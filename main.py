@@ -15,6 +15,10 @@ st.set_page_config(
     }
 )
 
+with st.sidebar:
+    st.image('download.JPEG', caption='price genius')
+    st.latex('\maltese')
+
 # Display text in header formatting
 st.subheader(':iphone: Phone price predictor')
 st.subheader(' ', anchor= 'header1', divider='rainbow')
