@@ -1,0 +1,9 @@
+# Center the subheader
+st.markdown("""
+    <h1 style='text-align: center; color: #1f77b4;'>:iphone: Phone price predictor</h1>
+    """, unsafe_allow_html=True)
+
+# Increase font size and center the markdown text
+st.markdown("""
+    <h3 style='text-align: center; color: #ff7f0e;'>enter phone specifications</h3>
+    """, unsafe_allow_html=True)
