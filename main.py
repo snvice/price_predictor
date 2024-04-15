@@ -42,4 +42,5 @@ with st.form("form", clear_on_submit=False):
         else:
             rf = load_model()
             price = predict_price(rf, brand, ram, internal_storage, battery, main_camera, front_camera, display, has_5g)            
-            st.write("price:", price)
+            # st.write("price:", price)
+            st.write("price:", "Ksh{:,.0f}".format(round(price, -2)))
