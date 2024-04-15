@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 with st.sidebar:
-    st.image('download.JPEG', caption='price genius')
+    st.image('download.jpeg', caption='price genius')
     st.latex('\maltese')
 
 # Display text in header formatting
